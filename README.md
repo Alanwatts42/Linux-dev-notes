@@ -9,7 +9,7 @@ This is simply a way for me to consolidate and preserve my notes on using and de
 
 ## Why here?
 
-It never hurts to have an excuse to get better at working with git repositories, given their ubiquity, their incomprehensible documentation (at least past a certain depth of understanding), and deceptively high level of complexity, despite a very easy to understand and ingenious overall premise.
+First, it's an excuse to get some practice with git, which is never a bad idea given how ubiquitous it has become. Git is surprisingly complex for what it appears to be on the surface, but once you start to figure out what it actually is, the reason for it's complexity rapidly becomes apparent. Also, it's much more convenient than keeping my notes on my computer, and notes stand a better chance of survival on github than in my documents folder.
 
 <br>
 <br>
