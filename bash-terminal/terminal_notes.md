@@ -92,4 +92,50 @@ you can use `locate` to quickly find what you're looking for via the database bu
 
 ---
 
+<br>
+
+# Possible better options for a Terminal emulator (Lubuntu)
+
+## Current Terminal: Terminator 
+### Reasons for switching:
+ - While it works great in some ways, I tend to get too bogged down trying to get it to look and do what I want it to do.
+ - The main selling point of Terminator, which is the ability to split 
+a terminal into multiple panels, is available in multiple other similar
+terminal emulators, some of which are superior in other ways as well.
+ - Terminator has a bespoke configuration scheme, and is especially difficult when dealing with changing color schemes, or even saving the one you liked.
+
+<br>
+
+## Requirements for new Terminal solution:
+ - "Dotfile" config scheme, similar to how vim is configured.
+ - Retains existing color syntax highlighting imposed by vim. Doesn't 
+necessarily need to drive any changes in the color of certain syntax 
+beyond the traditional colorscheme options, just needs to not interfere 
+with what's already being done.
+ - Must be somehow better than the ones I already have availble to me. 
+This requirement is somewhat obvious, since if what I have is already 
+better than what's out ther, then I might as well use what I already have, 
+such as Lxterminal or xvt.
+
+## Possible new Terminal solutions:
+Ordered top to bottom by when they are mentioned on this reddit thread:
+<a href='https://www.reddit.com/r/linux/comments/aeqitl/preferred_terminal_emulator/'>
+r/linux thread: preffered terminal emulator
+</a>
+The reddit dudes are probably arrogant pricks, but they're typically 
+arrogant pricks who know a thing or two about a thing or two.
+
+
+1. Tilix | https://gnunn1.github.io/tilix-web/
+    - very similar to Terminator, but seemingly without any of the slight issues I ran into with Terminator.
+    - Enables saving of colorschemes on .json files, which directly solves the problem I was having the most frustration with.
+    - Shortcut keys are familiar, and I figured out how to customize them whereas I couldn't with Terminator, possibly not anyone else's fault since I don't have a mouse, but I was impressed that I could do it on tilix.
+    - It's not 100% perfect, since I can't completely configure or store eerything to github in ddotfiles like a super badass hacker dude, but that's overkill anyway, and for mst if not all everyday use, this one will do fine.
+    Verdict: 9/10
+
+2. Termite | https://github.com/thestinger/termite/
+    - A lot less gui-driven. Requires some potentially difficult or confusing setup process. There's not much in the way of install docs, at least ver little that I can easily find and none included right up front. 
+    - Much more friendly to the approach a power-user might prefer, and which many will be familiar with if they've dabbled at all with vim's .vmrc configuration. That said, it's probably better if nothing attached to ny
+
+3. Xfce-Term
 

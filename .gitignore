@@ -1,0 +1,6 @@
+# git ignore for Alanwatts42/Linux-dev-notes repository
+
+# Ignore all of the following:
+*.sw*
+*.pyc
+*.tmp
