@@ -104,3 +104,25 @@ to do that:
 alias apt-up="sudo apt-get update && sudo apt-get dist-upgrade"
 ```
 
+# setopt AUTO_CD
+
+If you are looking for a way to shorten directory names, I suggest looking into Named Directories and the `AUTO_CD` option instead of aliases:
+`
+hash -d w=~/Documents/UoMWorkspace/Semester2
+hash -d j=~/Documents/UoMWorkspace/Semester2/COMP17412
+`
+This allows you to use `~w` instead of `~/Documents/UoMWorkspace/Semester2` and `~j` instead of `~/Documents/UoMWorkspace/Semester2/COMP17412 (or ~w/COMP17412)`. So `cd ~j` is identical to `cd ~/Documents/UoMWorkspace/Semester2`. It also works as part of a path, e.g. `cat ~j/somedir/somefile`.
+
+With
+`
+setopt AUTO_CD
+`
+zsh will automatically cd to a directory if it is given as command on the command line and it is not the name of an actual command. e.g.
+
+`
+% /usr
+% pwd
+/usr
+% ~w
+/home/YOURUSERNAME/Documents/UoMWorkspace/Semester2
+`
